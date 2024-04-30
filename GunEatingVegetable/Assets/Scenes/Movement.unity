@@ -300,7 +300,10 @@ MonoBehaviour:
   enemyHealth: 0
   maxHP: 5
   knockbackForce: -100
-  dropTest: {fileID: 8478664931350236823, guid: 8f5fb389088ca51429673bd6e55d2bcc, type: 3}
+  dropTest:
+  - {fileID: 3395341948053336921, guid: 5eefb019cd2cd404e98f634ab8210b72, type: 3}
+  - {fileID: 1361889168615725883, guid: 6a79d803d3449194fa3f52befab507e2, type: 3}
+  - {fileID: 3805922325192232288, guid: 9f589b724beb60e4b91333e457ee3af2, type: 3}
   enemy: {fileID: 287504941}
 --- !u!1 &564801802
 GameObject:
@@ -451,7 +454,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -10
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
   m_Color: {r: 0.5471698, g: 0.5471698, b: 0.5471698, a: 1}
   m_FlipX: 0
