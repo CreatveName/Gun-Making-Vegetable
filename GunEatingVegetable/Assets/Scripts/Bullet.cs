@@ -11,15 +11,17 @@ public class Bullet : MonoBehaviour
         StartCoroutine(DeathDelay());
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
     IEnumerator DeathDelay()
     {
         yield return new WaitForSeconds(lifeTime);
         Destroy(gameObject);
+    }
+
+    private void OnTriggerEnter2D(Collider2D other) 
+    {
+        if(other.gameObject.tag != "Player")
+        {
+            Destroy(gameObject);
+        }
     }
 }

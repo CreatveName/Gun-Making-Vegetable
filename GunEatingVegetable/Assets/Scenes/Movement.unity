@@ -135,6 +135,7 @@ GameObject:
   - component: {fileID: 287504939}
   - component: {fileID: 287504941}
   - component: {fileID: 287504938}
+  - component: {fileID: 287504942}
   m_Layer: 0
   m_Name: Enemy Triangle
   m_TagString: Enemy
@@ -252,7 +253,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 5.721875, y: -1.9420427, z: 0}
-  m_LocalScale: {x: 1.15, y: 1.15, z: 1.15}
+  m_LocalScale: {x: 2.02, y: 2.02, z: 2.02}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
@@ -270,8 +271,8 @@ Rigidbody2D:
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_LinearDrag: 5
+  m_AngularDrag: 5
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_IncludeLayers:
@@ -284,6 +285,23 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &287504942
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 287504937}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e91dac6d08f775b429f3516801dac1f1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyHealth: 0
+  maxHP: 5
+  knockbackForce: -100
+  dropTest: {fileID: 8478664931350236823, guid: 8f5fb389088ca51429673bd6e55d2bcc, type: 3}
+  enemy: {fileID: 287504941}
 --- !u!1 &564801802
 GameObject:
   m_ObjectHideFlags: 0
@@ -345,7 +363,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 13.33
+  orthographic size: 8
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -477,7 +495,7 @@ GameObject:
   - component: {fileID: 1388411961}
   m_Layer: 0
   m_Name: Farmer Joe
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
