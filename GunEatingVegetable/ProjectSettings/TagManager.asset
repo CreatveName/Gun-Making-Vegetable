@@ -7,6 +7,8 @@ TagManager:
   - Enemy
   - Bullet
   - Veggie
+  - Sell
+  - Upgrade
   layers:
   - Default
   - TransparentFX
