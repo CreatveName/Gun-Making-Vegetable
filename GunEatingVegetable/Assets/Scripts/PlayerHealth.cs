@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PlayerHealth : MonoBehaviour
 {
@@ -9,6 +10,8 @@ public class PlayerHealth : MonoBehaviour
     public int knockbackForce;
     public Rigidbody2D player;
     private Vector3 moveDir;
+    public Image[] hearts;
+    public Sprite fullHeart;
 
     private void Start() 
     {
