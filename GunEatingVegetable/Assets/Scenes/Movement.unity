@@ -1331,6 +1331,7 @@ GameObject:
   - component: {fileID: 1388411957}
   - component: {fileID: 1388411959}
   - component: {fileID: 1388411960}
+  - component: {fileID: 1388411966}
   - component: {fileID: 1388411962}
   - component: {fileID: 1388411965}
   - component: {fileID: 1388411964}
@@ -1559,6 +1560,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   onSell: 0
   onUpgrade: 0
+--- !u!114 &1388411966
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1388411955}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 58af2fc914739cc45b195aebb7213490, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bulletPre: {fileID: 9086738679432412022, guid: 636834b2a22b07a47b67f6dfb0fc3647, type: 3}
+  bulletSpeed: 7.5
+  fireDelay: 0.33
+  shootVer: 0
 --- !u!1 &1548803144
 GameObject:
   m_ObjectHideFlags: 0

@@ -37,6 +37,7 @@ public class UseVeg : MonoBehaviour
     {
         if(playerCollisions.onSell == true)
         {
+            //ADD MONEY OR SOMETHING INTEGRATE WITH DANIEL CODE
             Destroy(gameObject);
         }
     }
@@ -44,6 +45,7 @@ public class UseVeg : MonoBehaviour
     {
         if(playerCollisions.onUpgrade == true)
         {
+            //UPGRADES!!!! IDK HOW YET/NEED TO CLASSIFY BUTTON
             Destroy(gameObject);
         }
     }
