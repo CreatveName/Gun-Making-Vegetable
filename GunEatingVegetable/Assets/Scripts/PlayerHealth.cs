@@ -12,6 +12,7 @@ public class PlayerHealth : MonoBehaviour
     private Vector3 moveDir;
     public Image[] hearts;
     public Sprite fullHeart;
+    public Sprite empyHeart;
 
     private void Start() 
     {
@@ -32,6 +33,30 @@ public class PlayerHealth : MonoBehaviour
         if(playerHP <= 0)
         {
             Dead();
+        }
+
+        if(maxHP > playerHP)
+        {
+            maxHP = playerHP;
+        }
+
+        for(int i = 0; i < hearts.Length; i++)
+        {
+            if(i < playerHP)
+            {
+                hearts[i].sprite = fullHeart;
+            }else
+            {
+                hearts[i].sprite = empyHeart;
+            }
+
+            if(i < maxHP)
+            {
+                hearts[i].enabled = true;
+            } else
+            {
+                hearts[i].enabled = false;
+            }
         }
     }
 
