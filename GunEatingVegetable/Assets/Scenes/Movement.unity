@@ -2075,7 +2075,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bulletPre: {fileID: 9086738679432412022, guid: 636834b2a22b07a47b67f6dfb0fc3647, type: 3}
   bulletSpeed: 7.5
-  fireDelay: 0.33
+  fireDelay: 0.5
 --- !u!1 &1548803144
 GameObject:
   m_ObjectHideFlags: 0
