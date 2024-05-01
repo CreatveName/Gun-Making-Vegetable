@@ -47,7 +47,7 @@ public class TimeCalendar : MonoBehaviour
         int currentTimeHours = (int)Math.Floor(scaledSecondsPassed / 3600);
         int currentTimeMinutes = (int)Math.Floor((scaledSecondsPassed % 3600) / 60);
 
-        if(currentTimeHours == 0 && currentTimeMinutes == 0)//scaledSecondsPassed % 86400 == 0) //&& scaledSecondsPassed != 0)
+        if(currentTimeHours == 0 && currentTimeMinutes == 0)//scaledSecondsPassed % 86400 == 0) //&& scaledSecondsPassed != 0) VERY BOOTLEG CHANGED 4 PROTOTYPE TO BE ON TIME :) - T
         {
             dayOfWeek++;
             currentDay++;
