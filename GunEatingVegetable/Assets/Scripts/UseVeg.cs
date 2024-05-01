@@ -40,7 +40,7 @@ public class UseVeg : MonoBehaviour
     {
         if(playerCollisions.onSell == true)
         {
-            quota.payOff(1); //integrate different vegetable costs in the future
+            quota.payOff(20); //integrate different vegetable costs in the future
             Destroy(gameObject);
         }
     }

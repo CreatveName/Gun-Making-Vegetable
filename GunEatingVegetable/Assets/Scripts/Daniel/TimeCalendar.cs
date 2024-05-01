@@ -16,6 +16,7 @@ public class TimeCalendar : MonoBehaviour
 
     [SerializeField] private TMP_Text calendar;
     [SerializeField] private TMP_Text clock;
+    
 
     // Start is called before the first frame update
     private void Start()
@@ -43,15 +44,15 @@ public class TimeCalendar : MonoBehaviour
     {
         double scaledSecondsPassed = (currentTime * TIME_RATIO) % 86400;
 
-        if(scaledSecondsPassed % 86400 == 0 )//&& scaledSecondsPassed != 0)
+        int currentTimeHours = (int)Math.Floor(scaledSecondsPassed / 3600);
+        int currentTimeMinutes = (int)Math.Floor((scaledSecondsPassed % 3600) / 60);
+
+        if(currentTimeHours == 0 && currentTimeMinutes == 0)//scaledSecondsPassed % 86400 == 0) //&& scaledSecondsPassed != 0)
         {
             dayOfWeek++;
             currentDay++;
             Debug.Log("I ran");
         }
-
-        int currentTimeHours = (int)Math.Floor(scaledSecondsPassed / 3600);
-        int currentTimeMinutes = (int)Math.Floor((scaledSecondsPassed % 3600) / 60);
 
         return currentTimeHours + ":" + currentTimeMinutes;
     }
