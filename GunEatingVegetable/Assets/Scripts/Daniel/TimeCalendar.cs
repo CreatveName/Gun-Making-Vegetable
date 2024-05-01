@@ -20,13 +20,13 @@ public class TimeCalendar : MonoBehaviour
     // Start is called before the first frame update
     private void Start()
     {
-        currentDay = 1;
+        currentDay = 0;
         dayOfWeek = 0;
         startingTime = Time.time;
     }
 
     // Update is called once per frame
-    private void Update()
+    private void FixedUpdate()
     {
         currentTime = Time.time - startingTime; //Probably inefficient, maybe change later
 
@@ -43,10 +43,11 @@ public class TimeCalendar : MonoBehaviour
     {
         double scaledSecondsPassed = (currentTime * TIME_RATIO) % 86400;
 
-        if(scaledSecondsPassed % 86400 == 0 && scaledSecondsPassed != 0)
+        if(scaledSecondsPassed % 86400 == 0 )//&& scaledSecondsPassed != 0)
         {
             dayOfWeek++;
             currentDay++;
+            Debug.Log("I ran");
         }
 
         int currentTimeHours = (int)Math.Floor(scaledSecondsPassed / 3600);
