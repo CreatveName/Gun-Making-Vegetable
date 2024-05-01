@@ -47,4 +47,8 @@ public class Movement : MonoBehaviour
         player.AddForce(new Vector2(movement.x, movement.y) * moveSpeed, ForceMode2D.Force);
     }
 
+    public Vector2 returnDirection()
+    {
+        return movement;
+    }
 }
