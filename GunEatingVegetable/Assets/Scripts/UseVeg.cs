@@ -32,7 +32,8 @@ public class UseVeg : MonoBehaviour
     }
     public void EatVeggie()
     {
-        pHealth.playerHP++ ;
+        pHealth.playerHP++;
+        pHealth.maxHP++;
         Destroy(gameObject);
     }
     public void SellVeggie()

@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PlayerHealth : MonoBehaviour
 {
@@ -9,6 +10,9 @@ public class PlayerHealth : MonoBehaviour
     public int knockbackForce;
     public Rigidbody2D player;
     private Vector3 moveDir;
+    public Image[] hearts;
+    public Sprite fullHeart;
+    public Sprite empyHeart;
 
     private Quota quota;
 
@@ -31,6 +35,31 @@ public class PlayerHealth : MonoBehaviour
         if(playerHP <= 0)
         {
             Dead();
+        }
+        
+        if(maxHP > playerHP)
+        {
+            maxHP = playerHP;
+        }
+        
+
+        for(int i = 0; i < hearts.Length; i++)
+        {
+            if(i < playerHP)
+            {
+                hearts[i].sprite = fullHeart;
+            }else
+            {
+                hearts[i].sprite = empyHeart;
+            }
+
+            if(i < maxHP)
+            {
+                hearts[i].enabled = true;
+            } else
+            {
+                hearts[i].enabled = false;
+            }
         }
     }
 
