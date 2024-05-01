@@ -34,11 +34,12 @@ public class PlayerHealth : MonoBehaviour
         {
             Dead();
         }
-
+        
         if(maxHP > playerHP)
         {
             maxHP = playerHP;
         }
+        
 
         for(int i = 0; i < hearts.Length; i++)
         {

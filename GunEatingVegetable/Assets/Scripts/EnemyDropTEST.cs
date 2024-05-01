@@ -36,8 +36,7 @@ public class EnemyDropTEST : MonoBehaviour
 
     private void Dead()
     {
-        //int r = Random.Range(0, dropTest.Length);
-        Instantiate(dropTest[GetRandomValue()], this.transform.position, this.transform.rotation);
+        Instantiate(dropTest[GetRandomValue()], this.transform.position, this.transform.rotation); //RNG HARD CODED IN FOR DROPS
         Destroy(gameObject);
     }
     private int GetRandomValue()

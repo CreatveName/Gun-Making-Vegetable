@@ -16,7 +16,7 @@ public class PeaShoot : MonoBehaviour
         float shootVer = Input.GetAxis("ShootVertical");
         if((shootHor != 0 || shootVer != 0) && Time.time > lastFire + fireDelay)
         {
-            PewPew(shootHor, shootVer, .8f);
+            PewPew(shootHor, shootVer, .8f);//GENERATE 3 BULLETS @ DIFF SPEEDS MAYBE FAN LATER IDK
             PewPew(shootHor, shootVer, .9f);
             PewPew(shootHor, shootVer, 1f);
             lastFire = Time.time;
@@ -27,7 +27,7 @@ public class PeaShoot : MonoBehaviour
     {
         Vector3 rand = new Vector3(z, 0f, 0f);
         GameObject bullet = Instantiate(bulletPre, transform.position, transform.rotation) as GameObject;
-        bullet.transform.Rotate(rand);
+        bullet.transform.Rotate(rand); //FAN HERE BUT VELOCITY THING CHANGES IT ANYWYAYS
         bullet.GetComponent<Rigidbody2D>().velocity = new Vector3(
             (x < 0) ? Mathf.Floor(x) * bulletSpeed * z : Mathf.Ceil(x) * bulletSpeed * z,
             (y < 0) ? Mathf.Floor(y) * bulletSpeed * z : Mathf.Ceil(y) * bulletSpeed * z,
