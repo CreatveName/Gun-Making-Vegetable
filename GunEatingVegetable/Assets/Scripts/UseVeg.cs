@@ -7,11 +7,13 @@ public class UseVeg : MonoBehaviour
     private PlayerHealth pHealth;
     private PlayerCollisions playerCollisions;
     public GameObject sellButton, upgradeButton;
+    [SerializeField] private Quota quota;
     
     private void Awake() 
     {
         pHealth = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerHealth>();
         playerCollisions = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerCollisions>();
+        quota = GameObject.FindGameObjectWithTag("Money").GetComponent<Quota>();
     }
     private void Update() //FIX LATER TOO TIRED
     {
@@ -37,7 +39,7 @@ public class UseVeg : MonoBehaviour
     {
         if(playerCollisions.onSell == true)
         {
-            //ADD MONEY OR SOMETHING INTEGRATE WITH DANIEL CODE
+            quota.payOff(1); //integrate different vegetable costs in the future
             Destroy(gameObject);
         }
     }

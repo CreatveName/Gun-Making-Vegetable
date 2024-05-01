@@ -9,6 +9,7 @@ TagManager:
   - Veggie
   - Sell
   - Upgrade
+  - Money
   layers:
   - Default
   - TransparentFX

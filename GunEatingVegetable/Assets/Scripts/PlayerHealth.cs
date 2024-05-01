@@ -10,6 +10,8 @@ public class PlayerHealth : MonoBehaviour
     public Rigidbody2D player;
     private Vector3 moveDir;
 
+    private Quota quota;
+
     private void Start() 
     {
         playerHP = maxHP;
@@ -34,6 +36,7 @@ public class PlayerHealth : MonoBehaviour
 
     private void Dead()
     {
+        quota.totalDebt += 5; //discourages the player from dying
         Destroy(gameObject);
     }
 }
