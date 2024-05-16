@@ -5,10 +5,19 @@ using UnityEngine.SceneManagement;
 
 public class MainStory : MonoBehaviour
 {
-    private void OnEnable()
+     void Start()
     {
-        //Only specifying the sceneName or scneBuildIndex  will load the scene with Single Mode
-        SceneManager.LoadScene("MainMenu", LoadSceneMode.Single);
+        StartCoroutine(NextScene());
+    }
+    void Update()
+    {
+        
+    }
+    IEnumerator NextScene()
+    {
+        yield return new WaitForSeconds(8.3f);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 
 }
+
