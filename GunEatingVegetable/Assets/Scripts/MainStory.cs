@@ -15,7 +15,7 @@ public class MainStory : MonoBehaviour
     }
     IEnumerator NextScene()
     {
-        yield return new WaitForSeconds(8.3f);
+        yield return new WaitForSeconds(10.3f);
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 
