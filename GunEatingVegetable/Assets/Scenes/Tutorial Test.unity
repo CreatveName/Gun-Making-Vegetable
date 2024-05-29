@@ -76669,6 +76669,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1219695181495630432, guid: 396cba1a65cdf1e48b68030b79d0b8de, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -29
+      objectReference: {fileID: 0}
     - target: {fileID: 1550888360114939449, guid: 396cba1a65cdf1e48b68030b79d0b8de, type: 3}
       propertyPath: m_text
       value: 
@@ -76684,6 +76688,22 @@ PrefabInstance:
     - target: {fileID: 3235189768980485805, guid: 396cba1a65cdf1e48b68030b79d0b8de, type: 3}
       propertyPath: m_Enabled
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4266445361466608106, guid: 396cba1a65cdf1e48b68030b79d0b8de, type: 3}
+      propertyPath: m_Color.a
+      value: 0.6117647
+      objectReference: {fileID: 0}
+    - target: {fileID: 4549392831125530848, guid: 396cba1a65cdf1e48b68030b79d0b8de, type: 3}
+      propertyPath: m_fontColor.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4549392831125530848, guid: 396cba1a65cdf1e48b68030b79d0b8de, type: 3}
+      propertyPath: m_fontColor.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4549392831125530848, guid: 396cba1a65cdf1e48b68030b79d0b8de, type: 3}
+      propertyPath: m_fontColor.r
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4709777040349338115, guid: 396cba1a65cdf1e48b68030b79d0b8de, type: 3}
       propertyPath: img
@@ -76730,12 +76750,20 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7151022073265501761, guid: 396cba1a65cdf1e48b68030b79d0b8de, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: -530.323
+      objectReference: {fileID: 0}
+    - target: {fileID: 7151022073265501761, guid: 396cba1a65cdf1e48b68030b79d0b8de, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: -738.383
+      objectReference: {fileID: 0}
+    - target: {fileID: 7151022073265501761, guid: 396cba1a65cdf1e48b68030b79d0b8de, type: 3}
       propertyPath: m_AnchoredPosition.x
       value: 13.800049
       objectReference: {fileID: 0}
     - target: {fileID: 7151022073265501761, guid: 396cba1a65cdf1e48b68030b79d0b8de, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -371.27515
+      value: -351.728
       objectReference: {fileID: 0}
     - target: {fileID: 7215528885019096660, guid: 396cba1a65cdf1e48b68030b79d0b8de, type: 3}
       propertyPath: m_Size.x
@@ -76753,9 +76781,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Farmer Joe
       objectReference: {fileID: 0}
+    - target: {fileID: 9186446846188613292, guid: 396cba1a65cdf1e48b68030b79d0b8de, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 2741229215843708826, guid: 396cba1a65cdf1e48b68030b79d0b8de, type: 3}
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 6241023441585315597, guid: 396cba1a65cdf1e48b68030b79d0b8de, type: 3}
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 5324866120469313872, guid: 396cba1a65cdf1e48b68030b79d0b8de, type: 3}
       insertIndex: 0
