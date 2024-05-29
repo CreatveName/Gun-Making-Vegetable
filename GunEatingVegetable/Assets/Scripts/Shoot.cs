@@ -5,35 +5,47 @@ using UnityEngine;
 public class Shoot : MonoBehaviour
 {
     public GameObject bulletPre;
-    public float bulletSpeed;
-    private float lastFire;
+    public Transform bulletTrans;
+    private bool canFire;
+    private float timer;
     public float fireDelay;
+
+    private Camera mainCam;
+    private Vector3 mousePos;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        mainCam = GameObject.FindGameObjectWithTag("MainCamera").GetComponent<Camera>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        float shootHor = Input.GetAxis("ShootHorizontal");
-        float shootVer = Input.GetAxis("ShootVertical");
-        if((shootHor != 0 || shootVer != 0) && Time.time > lastFire + fireDelay)
+
+        mousePos = mainCam.ScreenToWorldPoint(Input.mousePosition);
+
+        Vector3 rotation = mousePos - transform.position;
+
+        float rotZ = Mathf.Atan2(rotation.y, rotation.x) * Mathf.Rad2Deg;
+
+        transform.rotation = Quaternion.Euler(0, 0, rotZ);
+
+        if(Input.GetMouseButton(0) && canFire)
         {
-            PewPew(shootHor, shootVer);
-            lastFire = Time.time;
+            canFire = false;
+            Instantiate(bulletPre, bulletTrans.position, Quaternion.identity);
+        }
+
+        if(!canFire)
+        {
+            timer += Time.deltaTime;
+            if(timer > fireDelay)
+            {
+                canFire = true;
+                timer = 0;
+            }
         }
     }
 
-    void PewPew(float x, float y)
-    {
-        GameObject bullet = Instantiate(bulletPre, transform.position, transform.rotation) as GameObject;
-        bullet.GetComponent<Rigidbody2D>().velocity = new Vector3(
-            (x < 0) ? Mathf.Floor(x) * bulletSpeed : Mathf.Ceil(x) * bulletSpeed,
-            (y < 0) ? Mathf.Floor(y) * bulletSpeed : Mathf.Ceil(y) * bulletSpeed,
-            0
-        );//CREATING CONSTANT SPEED FOR OUR BULLETS...
-    }
 }
