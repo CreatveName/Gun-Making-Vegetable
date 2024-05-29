@@ -10,6 +10,7 @@ TagManager:
   - Sell
   - Upgrade
   - Money
+  - NPC
   layers:
   - Default
   - TransparentFX

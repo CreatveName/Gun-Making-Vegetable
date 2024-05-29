@@ -1,11 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PlayerCollisions : MonoBehaviour
 {
     public bool onSell = false;//MAKE BETTER LATER AM TIRED.............
     public bool onUpgrade = false;
+    [SerializeField]private Sprite NPCPic;
+    [SerializeField]private Image img;
 
     private void OnTriggerEnter2D(Collider2D other) 
     {
@@ -17,6 +20,11 @@ public class PlayerCollisions : MonoBehaviour
         if(other.gameObject.tag == "Upgrade")
         {
             onUpgrade = true;
+        }
+        if(other.gameObject.tag == "NPC")
+        {
+            NPCPic = other.gameObject.GetComponent<NPCCheck>().image;
+            img.sprite = NPCPic;
         }
     }
     private void OnTriggerExit2D(Collider2D other) 
