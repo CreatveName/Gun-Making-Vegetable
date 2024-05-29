@@ -65,7 +65,7 @@ public class UseVeg : MonoBehaviour
                     break;
                 }
             }
-            quota.payOff(20); //integrate different vegetable costs in the future
+            quota.payOff(50); //integrate different vegetable costs in the future
             Destroy(gameObject);
         }
     }
