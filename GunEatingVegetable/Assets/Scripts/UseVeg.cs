@@ -25,6 +25,12 @@ public class UseVeg : MonoBehaviour
             sellButton.SetActive(false);
         }else{
             sellButton.SetActive(true);
+
+            if(Input.GetKeyDown(KeyCode.Q))
+            {
+                SellVeggie();
+            }
+
         }
         if(playerCollisions.onUpgrade == false)
         {

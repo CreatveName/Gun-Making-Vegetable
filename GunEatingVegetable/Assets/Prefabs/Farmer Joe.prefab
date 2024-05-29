@@ -978,13 +978,13 @@ GameObject:
   - component: {fileID: 5324866120469313872}
   - component: {fileID: 1376437913109620021}
   - component: {fileID: 2741229215843708826}
-  - component: {fileID: 8766023374212208412}
   - component: {fileID: 8115973771109936916}
   - component: {fileID: 4709777040349338115}
   - component: {fileID: 4095435755799739550}
   - component: {fileID: 3635721721089173995}
   - component: {fileID: 6970352950466854678}
   - component: {fileID: 7215528885019096660}
+  - component: {fileID: 3235189768980485805}
   m_Layer: 0
   m_Name: Farmer Joe
   m_TagString: Player
@@ -1037,21 +1037,6 @@ MonoBehaviour:
   bulletPre: {fileID: 9086738679432412022, guid: 636834b2a22b07a47b67f6dfb0fc3647, type: 3}
   bulletSpeed: 7.5
   fireDelay: 0.33
---- !u!114 &8766023374212208412
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8708570289906572614}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 58af2fc914739cc45b195aebb7213490, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  bulletPre: {fileID: 9086738679432412022, guid: 636834b2a22b07a47b67f6dfb0fc3647, type: 3}
-  bulletSpeed: 7.5
-  fireDelay: 0.5
 --- !u!114 &8115973771109936916
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1192,7 +1177,7 @@ BoxCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8708570289906572614}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Density: 1
   m_Material: {fileID: 0}
   m_IncludeLayers:
@@ -1230,6 +1215,41 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!70 &3235189768980485805
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8708570289906572614}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_Size: {x: 0.94087565, y: 1.8737702}
+  m_Direction: 0
 --- !u!1 &8985596644832700255
 GameObject:
   m_ObjectHideFlags: 0
