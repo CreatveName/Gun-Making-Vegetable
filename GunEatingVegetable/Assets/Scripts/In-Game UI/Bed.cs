@@ -5,6 +5,7 @@ using UnityEngine;
 public class Bed : MonoBehaviour
 {
     [SerializeField]private TimeCalendar tim;
+    [SerializeField]private GameObject eThing;
     private bool onBed = false;
 
     private void Start() 
@@ -17,6 +18,7 @@ public class Bed : MonoBehaviour
         if(other.gameObject.tag == "Player")
         {
             onBed = true;
+            eThing.SetActive(true);
         }
     }
     private void OnTriggerExit2D(Collider2D other) 
@@ -24,6 +26,7 @@ public class Bed : MonoBehaviour
         if(other.gameObject.tag == "Player")
         {
             onBed = false;
+            eThing.SetActive(false);
         }
     }
 
