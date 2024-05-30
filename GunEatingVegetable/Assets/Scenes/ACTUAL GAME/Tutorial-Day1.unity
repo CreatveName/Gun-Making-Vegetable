@@ -2080,53 +2080,67 @@ PrefabInstance:
       objectReference: {fileID: 2138673741}
     - target: {fileID: 1729033660780308683, guid: f4d17943ae3979242b3f40e4676a18d9, type: 3}
       propertyPath: dialogue.Array.size
-      value: 11
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 1729033660780308683, guid: f4d17943ae3979242b3f40e4676a18d9, type: 3}
       propertyPath: dialogue.Array.data[0]
-      value: moo im a cow
+      value: mooooooo... I'm a cow
       objectReference: {fileID: 0}
     - target: {fileID: 1729033660780308683, guid: f4d17943ae3979242b3f40e4676a18d9, type: 3}
       propertyPath: dialogue.Array.data[1]
-      value: Make sure to check our the training area below before the forest off
-        to the left
+      value: If you are having trouble figuring out what to do...
       objectReference: {fileID: 0}
     - target: {fileID: 1729033660780308683, guid: f4d17943ae3979242b3f40e4676a18d9, type: 3}
       propertyPath: dialogue.Array.data[2]
+      value: Try checking out the training area below!
+      objectReference: {fileID: 0}
+    - target: {fileID: 1729033660780308683, guid: f4d17943ae3979242b3f40e4676a18d9, type: 3}
+      propertyPath: dialogue.Array.data[3]
+      value: It'll help prepare you for the dangers of the forest to the left.
+      objectReference: {fileID: 0}
+    - target: {fileID: 1729033660780308683, guid: f4d17943ae3979242b3f40e4676a18d9, type: 3}
+      propertyPath: dialogue.Array.data[4]
       value: But be careful, once you come back to the farm you cannot go back into
         the forest...
       objectReference: {fileID: 0}
     - target: {fileID: 1729033660780308683, guid: f4d17943ae3979242b3f40e4676a18d9, type: 3}
-      propertyPath: dialogue.Array.data[3]
+      propertyPath: dialogue.Array.data[5]
       value: mmm yummy grass mooo
       objectReference: {fileID: 0}
     - target: {fileID: 1729033660780308683, guid: f4d17943ae3979242b3f40e4676a18d9, type: 3}
-      propertyPath: dialogue.Array.data[4]
-      value: sell your choice of veggies in the sell area to meet your debt quota
-      objectReference: {fileID: 0}
-    - target: {fileID: 1729033660780308683, guid: f4d17943ae3979242b3f40e4676a18d9, type: 3}
-      propertyPath: dialogue.Array.data[5]
-      value: mo
-      objectReference: {fileID: 0}
-    - target: {fileID: 1729033660780308683, guid: f4d17943ae3979242b3f40e4676a18d9, type: 3}
       propertyPath: dialogue.Array.data[6]
-      value: If you happen to lose all your health we will bring you back to your
-        house the next day
+      value: Sell your choice of veggies in the sell area to meet your debt quota
       objectReference: {fileID: 0}
     - target: {fileID: 1729033660780308683, guid: f4d17943ae3979242b3f40e4676a18d9, type: 3}
       propertyPath: dialogue.Array.data[7]
-      value: Don't be afraid to sleep to move on however
+      value: mooooooooooo
       objectReference: {fileID: 0}
     - target: {fileID: 1729033660780308683, guid: f4d17943ae3979242b3f40e4676a18d9, type: 3}
       propertyPath: dialogue.Array.data[8]
-      value: moo
+      value: If you happen to lose all your health, don't worry!
       objectReference: {fileID: 0}
     - target: {fileID: 1729033660780308683, guid: f4d17943ae3979242b3f40e4676a18d9, type: 3}
       propertyPath: dialogue.Array.data[9]
-      value: I hear something great happens after the 10th day.
+      value: You'll be rejuvenated in your bed the next morning.
       objectReference: {fileID: 0}
     - target: {fileID: 1729033660780308683, guid: f4d17943ae3979242b3f40e4676a18d9, type: 3}
       propertyPath: dialogue.Array.data[10]
+      value: Don't ask how it works!
+      objectReference: {fileID: 0}
+    - target: {fileID: 1729033660780308683, guid: f4d17943ae3979242b3f40e4676a18d9, type: 3}
+      propertyPath: dialogue.Array.data[11]
+      value: Don't be afraid to sleep to progress the days either!
+      objectReference: {fileID: 0}
+    - target: {fileID: 1729033660780308683, guid: f4d17943ae3979242b3f40e4676a18d9, type: 3}
+      propertyPath: dialogue.Array.data[12]
+      value: mooooooooooooooo
+      objectReference: {fileID: 0}
+    - target: {fileID: 1729033660780308683, guid: f4d17943ae3979242b3f40e4676a18d9, type: 3}
+      propertyPath: dialogue.Array.data[13]
+      value: I hear something great happens after the 10th day.
+      objectReference: {fileID: 0}
+    - target: {fileID: 1729033660780308683, guid: f4d17943ae3979242b3f40e4676a18d9, type: 3}
+      propertyPath: dialogue.Array.data[14]
       value: Although I never see the farmers again, I'm sure they all made it out
         fine
       objectReference: {fileID: 0}
@@ -3123,31 +3137,47 @@ PrefabInstance:
       objectReference: {fileID: 2138673741}
     - target: {fileID: 3584410696220331295, guid: fbc37598d923d16478160b170938f5d9, type: 3}
       propertyPath: dialogue.Array.size
-      value: 6
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 3584410696220331295, guid: fbc37598d923d16478160b170938f5d9, type: 3}
       propertyPath: dialogue.Array.data[0]
-      value: I am a note I swear
+      value: 'Congratulations [ID: JOE]'
       objectReference: {fileID: 0}
     - target: {fileID: 3584410696220331295, guid: fbc37598d923d16478160b170938f5d9, type: 3}
       propertyPath: dialogue.Array.data[1]
-      value: Anyways...
+      value: We at CERES Corporation have assigned you a cozy role farming out in
+        the galactic frontier.
       objectReference: {fileID: 0}
     - target: {fileID: 3584410696220331295, guid: fbc37598d923d16478160b170938f5d9, type: 3}
       propertyPath: dialogue.Array.data[2]
-      value: Please fill 5 debt goals to finish your mission
+      value: As is standard, a set of equipment and furnishings have been supplied
+        to you.
       objectReference: {fileID: 0}
     - target: {fileID: 3584410696220331295, guid: fbc37598d923d16478160b170938f5d9, type: 3}
       propertyPath: dialogue.Array.data[3]
-      value: We will come collect you afterwards
+      value: However, we have since found you lack the funds to pay the cost for
+        the equipment.
       objectReference: {fileID: 0}
     - target: {fileID: 3584410696220331295, guid: fbc37598d923d16478160b170938f5d9, type: 3}
       propertyPath: dialogue.Array.data[4]
-      value: Although after 10 days --bzz-- bz-
+      value: 'In recognition of your dedication to prosperity, however... '
       objectReference: {fileID: 0}
     - target: {fileID: 3584410696220331295, guid: fbc37598d923d16478160b170938f5d9, type: 3}
       propertyPath: dialogue.Array.data[5]
-      value: So yea, happy farming
+      value: An indefinite grace period has been granted to pay off your debt towards
+        us!
+      objectReference: {fileID: 0}
+    - target: {fileID: 3584410696220331295, guid: fbc37598d923d16478160b170938f5d9, type: 3}
+      propertyPath: dialogue.Array.data[6]
+      value: A speedy payment is always preferred though!
+      objectReference: {fileID: 0}
+    - target: {fileID: 3584410696220331295, guid: fbc37598d923d16478160b170938f5d9, type: 3}
+      propertyPath: dialogue.Array.data[7]
+      value: Meet the 5 debt goals and we will come with further instructions.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3584410696220331295, guid: fbc37598d923d16478160b170938f5d9, type: 3}
+      propertyPath: dialogue.Array.data[8]
+      value: So good luck and happy farming!
       objectReference: {fileID: 0}
     - target: {fileID: 4531255695740617010, guid: fbc37598d923d16478160b170938f5d9, type: 3}
       propertyPath: m_Sprite
@@ -3323,6 +3353,11 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.01853162, y: 1}
   m_EdgeRadius: 0
+--- !u!4 &534533710 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1946980681241666247, guid: fbc37598d923d16478160b170938f5d9, type: 3}
+  m_PrefabInstance: {fileID: 1140980196}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &561780166
 GameObject:
   m_ObjectHideFlags: 0
@@ -4221,6 +4256,11 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.006816387, y: 1}
   m_EdgeRadius: 0
+--- !u!4 &643664099 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5840863497501182014, guid: 5b480fbd32bc01448b22a3326c26d06e, type: 3}
+  m_PrefabInstance: {fileID: 2026640069}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &646872253
 GameObject:
   m_ObjectHideFlags: 0
@@ -86678,7 +86718,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1149139612}
     m_Modifications:
     - target: {fileID: 52160618854440035, guid: fbc37598d923d16478160b170938f5d9, type: 3}
       propertyPath: m_Name
@@ -86706,15 +86746,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1946980681241666247, guid: fbc37598d923d16478160b170938f5d9, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 1946980681241666247, guid: fbc37598d923d16478160b170938f5d9, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 1946980681241666247, guid: fbc37598d923d16478160b170938f5d9, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 1946980681241666247, guid: fbc37598d923d16478160b170938f5d9, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -86738,36 +86778,55 @@ PrefabInstance:
       objectReference: {fileID: 2138673741}
     - target: {fileID: 3584410696220331295, guid: fbc37598d923d16478160b170938f5d9, type: 3}
       propertyPath: dialogue.Array.size
-      value: 7
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 3584410696220331295, guid: fbc37598d923d16478160b170938f5d9, type: 3}
       propertyPath: dialogue.Array.data[0]
-      value: Hey man, im chill I swear
+      value: 'Hey man! Don''t throw rocks at me! '
       objectReference: {fileID: 0}
     - target: {fileID: 3584410696220331295, guid: fbc37598d923d16478160b170938f5d9, type: 3}
       propertyPath: dialogue.Array.data[1]
-      value: you can test those rocks on that fake wolf over there
+      value: I'm not like the other wolves you'll find out here.
       objectReference: {fileID: 0}
     - target: {fileID: 3584410696220331295, guid: fbc37598d923d16478160b170938f5d9, type: 3}
       propertyPath: dialogue.Array.data[2]
-      value: But "he" does still bite
+      value: They haven't discovered the joys of Brechtian theater yet.
       objectReference: {fileID: 0}
     - target: {fileID: 3584410696220331295, guid: fbc37598d923d16478160b170938f5d9, type: 3}
       propertyPath: dialogue.Array.data[3]
-      value: I mean "it"
+      value: Be careful around my cousins though.
       objectReference: {fileID: 0}
     - target: {fileID: 3584410696220331295, guid: fbc37598d923d16478160b170938f5d9, type: 3}
       propertyPath: dialogue.Array.data[4]
-      value: Anyways try not to die out there, you'll be one day closer to day 10
+      value: Your rocks should scare them off.
       objectReference: {fileID: 0}
     - target: {fileID: 3584410696220331295, guid: fbc37598d923d16478160b170938f5d9, type: 3}
       propertyPath: dialogue.Array.data[5]
-      value: Not that anything happens during day 10
+      value: They might even drop the things they're holding like veggies.
       objectReference: {fileID: 0}
     - target: {fileID: 3584410696220331295, guid: fbc37598d923d16478160b170938f5d9, type: 3}
       propertyPath: dialogue.Array.data[6]
-      value: Anyways I stuffed one of my veggies in there if you wanna try and get
-        it or eat it, I don't really mind
+      value: You can test on that decoy over there.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3584410696220331295, guid: fbc37598d923d16478160b170938f5d9, type: 3}
+      propertyPath: dialogue.Array.data[7]
+      value: Don't get too close though, "he" still bites.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3584410696220331295, guid: fbc37598d923d16478160b170938f5d9, type: 3}
+      propertyPath: dialogue.Array.data[8]
+      value: I mean "it."
+      objectReference: {fileID: 0}
+    - target: {fileID: 3584410696220331295, guid: fbc37598d923d16478160b170938f5d9, type: 3}
+      propertyPath: dialogue.Array.data[9]
+      value: Try not to die out there. You'll be 1 step closer to Day 10.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3584410696220331295, guid: fbc37598d923d16478160b170938f5d9, type: 3}
+      propertyPath: dialogue.Array.data[10]
+      value: If anyone asks, you didn't hear that from me.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3584410696220331295, guid: fbc37598d923d16478160b170938f5d9, type: 3}
+      propertyPath: dialogue.Array.data[11]
+      value: Take all the time you need to pay off that debt of yours...
       objectReference: {fileID: 0}
     - target: {fileID: 4531255695740617010, guid: fbc37598d923d16478160b170938f5d9, type: 3}
       propertyPath: m_Sprite
@@ -86829,6 +86888,8 @@ Transform:
   - {fileID: 997094957}
   - {fileID: 1072929725}
   - {fileID: 1126527735}
+  - {fileID: 643664099}
+  - {fileID: 534533710}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1167489991
@@ -87477,7 +87538,7 @@ PrefabInstance:
       objectReference: {fileID: 2138673741}
     - target: {fileID: 3584410696220331295, guid: fbc37598d923d16478160b170938f5d9, type: 3}
       propertyPath: dialogue.Array.size
-      value: 6
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 3584410696220331295, guid: fbc37598d923d16478160b170938f5d9, type: 3}
       propertyPath: dialogue.Array.data[0]
@@ -87485,25 +87546,31 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3584410696220331295, guid: fbc37598d923d16478160b170938f5d9, type: 3}
       propertyPath: dialogue.Array.data[1]
-      value: Don't eat me or my bretheren
+      value: Don't eat me or my brethren
       objectReference: {fileID: 0}
     - target: {fileID: 3584410696220331295, guid: fbc37598d923d16478160b170938f5d9, type: 3}
       propertyPath: dialogue.Array.data[2]
-      value: We do NOT give you extra health back. Eat all the root things, they
-        definetely give you health. I swear...
+      value: We do NOT give you extra health back, I swear!
       objectReference: {fileID: 0}
     - target: {fileID: 3584410696220331295, guid: fbc37598d923d16478160b170938f5d9, type: 3}
       propertyPath: dialogue.Array.data[3]
-      value: Anyways each plant is worth different amounts(UNLESS THE DEVS HAVE NOT
-        GOTTEN TO THAT), me personally, I'm about 50 shmuckeroos
+      value: My root friends on the other hand...
       objectReference: {fileID: 0}
     - target: {fileID: 3584410696220331295, guid: fbc37598d923d16478160b170938f5d9, type: 3}
       propertyPath: dialogue.Array.data[4]
-      value: Press the sell button or q to quick sell when on the sell area
+      value: Anyways, each plant is worth different amounts(WIP)
       objectReference: {fileID: 0}
     - target: {fileID: 3584410696220331295, guid: fbc37598d923d16478160b170938f5d9, type: 3}
       propertyPath: dialogue.Array.data[5]
-      value: Try it later with that free one you got from plant guy
+      value: Me personally, I'm about 50 shmuckeroos
+      objectReference: {fileID: 0}
+    - target: {fileID: 3584410696220331295, guid: fbc37598d923d16478160b170938f5d9, type: 3}
+      propertyPath: dialogue.Array.data[6]
+      value: Press the sell button or Q to quick sell at the sell area.
+      objectReference: {fileID: 0}
+    - target: {fileID: 3584410696220331295, guid: fbc37598d923d16478160b170938f5d9, type: 3}
+      propertyPath: dialogue.Array.data[7]
+      value: Try it later with the freebie you get from by bush friend over there.
       objectReference: {fileID: 0}
     - target: {fileID: 4531255695740617010, guid: fbc37598d923d16478160b170938f5d9, type: 3}
       propertyPath: m_Sprite
@@ -91794,7 +91861,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1149139612}
     m_Modifications:
     - target: {fileID: 5840863497501182014, guid: 5b480fbd32bc01448b22a3326c26d06e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -91814,15 +91881,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5840863497501182014, guid: 5b480fbd32bc01448b22a3326c26d06e, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 5840863497501182014, guid: 5b480fbd32bc01448b22a3326c26d06e, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 5840863497501182014, guid: 5b480fbd32bc01448b22a3326c26d06e, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 5840863497501182014, guid: 5b480fbd32bc01448b22a3326c26d06e, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -92485,6 +92552,30 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1219695181495630432, guid: 396cba1a65cdf1e48b68030b79d0b8de, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -381
+      objectReference: {fileID: 0}
+    - target: {fileID: 1219695181495630432, guid: 396cba1a65cdf1e48b68030b79d0b8de, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0.0000076294
+      objectReference: {fileID: 0}
+    - target: {fileID: 2539758830554936003, guid: 396cba1a65cdf1e48b68030b79d0b8de, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 725.618
+      objectReference: {fileID: 0}
+    - target: {fileID: 2539758830554936003, guid: 396cba1a65cdf1e48b68030b79d0b8de, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 150.69
+      objectReference: {fileID: 0}
+    - target: {fileID: 2539758830554936003, guid: 396cba1a65cdf1e48b68030b79d0b8de, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 101.888
+      objectReference: {fileID: 0}
+    - target: {fileID: 2539758830554936003, guid: 396cba1a65cdf1e48b68030b79d0b8de, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0.0000019073
+      objectReference: {fileID: 0}
     - target: {fileID: 5324866120469313872, guid: 396cba1a65cdf1e48b68030b79d0b8de, type: 3}
       propertyPath: m_LocalPosition.x
       value: 67.8
@@ -92525,9 +92616,29 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7151022073265501761, guid: 396cba1a65cdf1e48b68030b79d0b8de, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: -809.247
+      objectReference: {fileID: 0}
+    - target: {fileID: 7151022073265501761, guid: 396cba1a65cdf1e48b68030b79d0b8de, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: -649.801
+      objectReference: {fileID: 0}
+    - target: {fileID: 7151022073265501761, guid: 396cba1a65cdf1e48b68030b79d0b8de, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 15.315979
+      objectReference: {fileID: 0}
+    - target: {fileID: 7151022073265501761, guid: 396cba1a65cdf1e48b68030b79d0b8de, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -291.00003
+      objectReference: {fileID: 0}
     - target: {fileID: 8708570289906572614, guid: 396cba1a65cdf1e48b68030b79d0b8de, type: 3}
       propertyPath: m_Name
       value: Farmer Joe
+      objectReference: {fileID: 0}
+    - target: {fileID: 9186446846188613292, guid: 396cba1a65cdf1e48b68030b79d0b8de, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -92693,7 +92804,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3584410696220331295, guid: fbc37598d923d16478160b170938f5d9, type: 3}
       propertyPath: dialogue.Array.data[3]
-      value: ' He''s got to many seeds'
+      value: He's got enough seeds to go around!
       objectReference: {fileID: 0}
     - target: {fileID: 3584410696220331295, guid: fbc37598d923d16478160b170938f5d9, type: 3}
       propertyPath: dialogue.Array.data[4]
@@ -92705,7 +92816,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3584410696220331295, guid: fbc37598d923d16478160b170938f5d9, type: 3}
       propertyPath: dialogue.Array.data[6]
-      value: Anyways bout time you get a moving
+      value: Anyways bout time you get a-moving.
       objectReference: {fileID: 0}
     - target: {fileID: 3584410696220331295, guid: fbc37598d923d16478160b170938f5d9, type: 3}
       propertyPath: dialogue.Array.data[7]
@@ -92713,7 +92824,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3584410696220331295, guid: fbc37598d923d16478160b170938f5d9, type: 3}
       propertyPath: dialogue.Array.data[8]
-      value: I can feel the pain in my heart when rocks hit me
+      value: I can feel the pain in my heart (when the rocks hit me).
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -92799,6 +92910,4 @@ SceneRoots:
   - {fileID: 1510786198}
   - {fileID: 87783570}
   - {fileID: 1149139612}
-  - {fileID: 2026640069}
-  - {fileID: 1140980196}
   - {fileID: 900465079}
