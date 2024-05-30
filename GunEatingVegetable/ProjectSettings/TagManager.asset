@@ -12,6 +12,7 @@ TagManager:
   - Money
   - NPC
   - TimeCalendar
+  - Dialogue
   layers:
   - Default
   - TransparentFX

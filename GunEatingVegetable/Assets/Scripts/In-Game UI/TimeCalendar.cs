@@ -11,11 +11,8 @@ public class TimeCalendar : MonoBehaviour
     private int currentDay;
     private int dayOfWeek;
     private String[] weekdayName = new string[4] { "Pleunday", "Tebogoday", "Ucheday", "Flannday" };
-    //private float startingTime;
-    //private float currentTime;
 
     [SerializeField] private TMP_Text calendar;
-    //[SerializeField] private TMP_Text clock;
     [SerializeField] private GameObject dayMarkerPre;
     [SerializeField] private GameObject Spawnpoint;
     
@@ -25,13 +22,11 @@ public class TimeCalendar : MonoBehaviour
     {
         currentDay = 1;
         dayOfWeek = 0;
-        //startingTime = Time.time;
     }
 
     // Update is called once per frame
     private void FixedUpdate()
     {
-        //currentTime = Time.time - startingTime; //Probably inefficient, maybe change later
 
         if(dayOfWeek > 3)
         {
@@ -39,7 +34,6 @@ public class TimeCalendar : MonoBehaviour
         }
 
         calendar.text = "Day: " + currentDay + " | " + weekdayName[dayOfWeek];
-        //clock.text = "Time: " + getCurrentTimeFormat();
     }
 
     public void AddDay()
@@ -49,25 +43,5 @@ public class TimeCalendar : MonoBehaviour
         (Instantiate(dayMarkerPre, Spawnpoint.transform) as GameObject).transform.parent = Spawnpoint.transform;
 
     }
-
-    /*
-
-    private String getCurrentTimeFormat()
-    {
-        double scaledSecondsPassed = (currentTime * TIME_RATIO) % 86400;
-
-        int currentTimeHours = (int)Math.Floor(scaledSecondsPassed / 3600);
-        int currentTimeMinutes = (int)Math.Floor((scaledSecondsPassed % 3600) / 60);
-
-        if(currentTimeHours == 0 && currentTimeMinutes == 0 && currentTime != 0)
-        {
-            dayOfWeek++;
-            currentDay++;
-        }
-
-        return currentTimeHours + ":" + currentTimeMinutes;
-    }
-    */
-
 
 }
