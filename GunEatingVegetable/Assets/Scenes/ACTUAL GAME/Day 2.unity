@@ -2195,7 +2195,8 @@ PrefabInstance:
       propertyPath: m_TagString
       value: NPC
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 3202437263939378143, guid: f4d17943ae3979242b3f40e4676a18d9, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 6293564925908339581, guid: f4d17943ae3979242b3f40e4676a18d9, type: 3}
@@ -86956,7 +86957,8 @@ PrefabInstance:
       propertyPath: m_TagString
       value: NPC
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 3202437263939378143, guid: f4d17943ae3979242b3f40e4676a18d9, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 6293564925908339581, guid: f4d17943ae3979242b3f40e4676a18d9, type: 3}
