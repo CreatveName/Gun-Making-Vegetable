@@ -6,6 +6,7 @@ public class Vegetable : MonoBehaviour
 {
     private Inventory inventory;
     public GameObject itemButtom;
+    private AudioSource audioSource;
 
     private void Start() 
     {
@@ -19,6 +20,7 @@ public class Vegetable : MonoBehaviour
             {
                 if(inventory.isFull[i] == false)
                 {
+                    audioSource.Play();
                     inventory.isFull[i] = true;
                     Instantiate(itemButtom, inventory.slots[i].transform, false);
                     Destroy(gameObject);
