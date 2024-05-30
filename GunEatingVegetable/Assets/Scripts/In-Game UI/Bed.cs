@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Bed : MonoBehaviour
 {
@@ -35,7 +36,7 @@ public class Bed : MonoBehaviour
         if(onBed && Input.GetKeyDown(KeyCode.E))
         {
             tim.AddDay();
-            //PROGRESS TO NEXT SCENE :)
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }
     }
 }

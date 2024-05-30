@@ -10,6 +10,21 @@ public class Money : MonoBehaviour
 
     [SerializeField] private TMP_Text moneyCounter;
 
+    public static Money Minstance {get; private set;}
+
+    private void Awake() 
+    {
+        if(Minstance != null && Minstance != this)
+        {
+            Destroy(this.gameObject);
+        }else
+        {
+            Minstance = this;
+        }
+
+        DontDestroyOnLoad(gameObject);
+    }
+
     // Start is called before the first frame update
     private void Start()
     {

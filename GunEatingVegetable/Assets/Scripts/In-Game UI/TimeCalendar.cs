@@ -15,6 +15,21 @@ public class TimeCalendar : MonoBehaviour
     [SerializeField] private TMP_Text calendar;
     [SerializeField] private GameObject dayMarkerPre;
     [SerializeField] private GameObject Spawnpoint;
+
+    public static TimeCalendar Tinstance {get; private set;}
+
+    private void Awake() 
+    {
+        if(Tinstance != null && Tinstance != this)
+        {
+            Destroy(this.gameObject);
+        }else
+        {
+            Tinstance = this;
+        }
+        
+        DontDestroyOnLoad(gameObject);
+    }
     
 
     // Start is called before the first frame update

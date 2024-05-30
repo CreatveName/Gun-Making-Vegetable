@@ -6,6 +6,22 @@ using System;
 
 public class Quota : MonoBehaviour
 {
+    //private static Quota instance;
+
+    public static Quota instance {get; private set;}
+
+    private void Awake() {
+        if(instance != null && instance != this)
+        {
+            Destroy(this.gameObject);
+        }else
+        {
+            instance = this;
+        }
+
+        DontDestroyOnLoad(gameObject);
+    }
+
     [SerializeField] private GameObject endScreen;
     public Money money;
     
