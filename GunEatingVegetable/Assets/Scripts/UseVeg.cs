@@ -8,6 +8,7 @@ public class UseVeg : MonoBehaviour
     private PlayerCollisions playerCollisions;
     public GameObject sellButton, upgradeButton;
     private Inventory inventory;
+    [SerializeField]private bool isGinger;
     
     [SerializeField] private Quota quota;
     
@@ -41,8 +42,16 @@ public class UseVeg : MonoBehaviour
     }
     public void EatVeggie()
     {
-        pHealth.playerHP++;
-        pHealth.maxHP++;
+        if(!isGinger)
+        {
+            pHealth.playerHP++;
+            pHealth.maxHP++;
+        }else if(isGinger)
+        {
+            pHealth.playerHP--;
+            pHealth.maxHP--;
+        }
+        
         for(int i = 0; i < inventory.slots.Length; i++)
             {
                 if(inventory.isFull[i] == true)

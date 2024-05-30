@@ -180,6 +180,7 @@ MonoBehaviour:
   maxHP: 2
   knockbackForce: -50
   dropTest:
+  - {fileID: 1361889168615725883, guid: 94bda24da99f23846b010df8fe4a1f22, type: 3}
   - {fileID: 3395341948053336921, guid: 5eefb019cd2cd404e98f634ab8210b72, type: 3}
   - {fileID: 1361889168615725883, guid: 6a79d803d3449194fa3f52befab507e2, type: 3}
   - {fileID: 3805922325192232288, guid: 9f589b724beb60e4b91333e457ee3af2, type: 3}

@@ -42,12 +42,14 @@ public class EnemyDropTEST : MonoBehaviour
     private int GetRandomValue()
     {
         float rand = Random.value;
-        if(rand <= .5f)
+        if(rand <= .4f)
             return 0;
-        if(rand <= .85f)
+        if(rand <= .65f)
             return 1;
+        if(rand <= .85f)
+            return 2;
         
-        return 2;
+        return 3;
         
     }
 }
