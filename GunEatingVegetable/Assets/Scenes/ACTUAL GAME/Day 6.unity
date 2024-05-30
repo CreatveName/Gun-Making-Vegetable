@@ -86796,7 +86796,7 @@ PrefabInstance:
       objectReference: {fileID: 2138673741}
     - target: {fileID: 3584410696220331295, guid: fbc37598d923d16478160b170938f5d9, type: 3}
       propertyPath: dialogue.Array.size
-      value: 6
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 3584410696220331295, guid: fbc37598d923d16478160b170938f5d9, type: 3}
       propertyPath: dialogue.Array.data[0]
@@ -86821,6 +86821,11 @@ PrefabInstance:
     - target: {fileID: 3584410696220331295, guid: fbc37598d923d16478160b170938f5d9, type: 3}
       propertyPath: dialogue.Array.data[5]
       value: caw caw I am birb
+      objectReference: {fileID: 0}
+    - target: {fileID: 3584410696220331295, guid: fbc37598d923d16478160b170938f5d9, type: 3}
+      propertyPath: dialogue.Array.data[6]
+      value: I'll keep the forest open, but if you lose all your health or go to
+        sleep I'll fly away
       objectReference: {fileID: 0}
     - target: {fileID: 4531255695740617010, guid: fbc37598d923d16478160b170938f5d9, type: 3}
       propertyPath: m_Sprite
