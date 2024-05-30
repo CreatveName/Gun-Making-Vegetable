@@ -2079,40 +2079,39 @@ PrefabInstance:
       objectReference: {fileID: 2138673741}
     - target: {fileID: 1729033660780308683, guid: f4d17943ae3979242b3f40e4676a18d9, type: 3}
       propertyPath: dialogue.Array.size
-      value: 5
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1729033660780308683, guid: f4d17943ae3979242b3f40e4676a18d9, type: 3}
       propertyPath: dialogue.Array.data[0]
-      value: Cow sound
+      value: Psst...
       objectReference: {fileID: 0}
     - target: {fileID: 1729033660780308683, guid: f4d17943ae3979242b3f40e4676a18d9, type: 3}
       propertyPath: dialogue.Array.data[1]
-      value: mo moo mo mooo
+      value: You still having trouble paying off that debt?
       objectReference: {fileID: 0}
     - target: {fileID: 1729033660780308683, guid: f4d17943ae3979242b3f40e4676a18d9, type: 3}
       propertyPath: dialogue.Array.data[2]
-      value: I'm a cow moo
+      value: I might have a solution for you...
       objectReference: {fileID: 0}
     - target: {fileID: 1729033660780308683, guid: f4d17943ae3979242b3f40e4676a18d9, type: 3}
       propertyPath: dialogue.Array.data[3]
-      value: regular ol' cow
+      value: There's an ANCIENT COIN deep in the forest that's worth a lot of moooolah.
       objectReference: {fileID: 0}
     - target: {fileID: 1729033660780308683, guid: f4d17943ae3979242b3f40e4676a18d9, type: 3}
       propertyPath: dialogue.Array.data[4]
-      value: mm yummy grass moo
+      value: It should be in some kind of ruins.
       objectReference: {fileID: 0}
     - target: {fileID: 1729033660780308683, guid: f4d17943ae3979242b3f40e4676a18d9, type: 3}
       propertyPath: dialogue.Array.data[5]
-      value: mo
+      value: Careful though, I hear there's still something living there.
       objectReference: {fileID: 0}
     - target: {fileID: 1729033660780308683, guid: f4d17943ae3979242b3f40e4676a18d9, type: 3}
       propertyPath: dialogue.Array.data[6]
-      value: If you happen to lose all your health we will bring you back to your
-        house the next day
+      value: Something dark and dangerous...
       objectReference: {fileID: 0}
     - target: {fileID: 1729033660780308683, guid: f4d17943ae3979242b3f40e4676a18d9, type: 3}
       propertyPath: dialogue.Array.data[7]
-      value: Don't be afraid to sleep to move on however
+      value: mm yummy grass moo
       objectReference: {fileID: 0}
     - target: {fileID: 1729033660780308683, guid: f4d17943ae3979242b3f40e4676a18d9, type: 3}
       propertyPath: dialogue.Array.data[8]
@@ -4077,7 +4076,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &630158099
 Transform:
   m_ObjectHideFlags: 0
@@ -92755,22 +92754,6 @@ PrefabInstance:
     - target: {fileID: 5324866120469313872, guid: 396cba1a65cdf1e48b68030b79d0b8de, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7215528885019096660, guid: 396cba1a65cdf1e48b68030b79d0b8de, type: 3}
-      propertyPath: m_Size.x
-      value: 0.41903687
-      objectReference: {fileID: 0}
-    - target: {fileID: 7215528885019096660, guid: 396cba1a65cdf1e48b68030b79d0b8de, type: 3}
-      propertyPath: m_Size.y
-      value: 0.8019321
-      objectReference: {fileID: 0}
-    - target: {fileID: 7215528885019096660, guid: 396cba1a65cdf1e48b68030b79d0b8de, type: 3}
-      propertyPath: m_Offset.x
-      value: -0.0049057007
-      objectReference: {fileID: 0}
-    - target: {fileID: 7215528885019096660, guid: 396cba1a65cdf1e48b68030b79d0b8de, type: 3}
-      propertyPath: m_Offset.y
-      value: -0.034953237
       objectReference: {fileID: 0}
     - target: {fileID: 8708570289906572614, guid: 396cba1a65cdf1e48b68030b79d0b8de, type: 3}
       propertyPath: m_Name

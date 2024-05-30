@@ -92756,22 +92756,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7215528885019096660, guid: 396cba1a65cdf1e48b68030b79d0b8de, type: 3}
-      propertyPath: m_Size.x
-      value: 0.41903687
-      objectReference: {fileID: 0}
-    - target: {fileID: 7215528885019096660, guid: 396cba1a65cdf1e48b68030b79d0b8de, type: 3}
-      propertyPath: m_Size.y
-      value: 0.8019321
-      objectReference: {fileID: 0}
-    - target: {fileID: 7215528885019096660, guid: 396cba1a65cdf1e48b68030b79d0b8de, type: 3}
-      propertyPath: m_Offset.x
-      value: -0.0049057007
-      objectReference: {fileID: 0}
-    - target: {fileID: 7215528885019096660, guid: 396cba1a65cdf1e48b68030b79d0b8de, type: 3}
-      propertyPath: m_Offset.y
-      value: -0.034953237
-      objectReference: {fileID: 0}
     - target: {fileID: 8708570289906572614, guid: 396cba1a65cdf1e48b68030b79d0b8de, type: 3}
       propertyPath: m_Name
       value: Farmer Joe
