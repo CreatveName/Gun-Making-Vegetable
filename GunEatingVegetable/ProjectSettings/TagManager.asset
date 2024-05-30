@@ -11,6 +11,7 @@ TagManager:
   - Upgrade
   - Money
   - NPC
+  - TimeCalendar
   layers:
   - Default
   - TransparentFX
