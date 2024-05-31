@@ -11,7 +11,7 @@ public class EndGame : MonoBehaviour
     {
         if(other.gameObject.tag == "Player")
         {
-            endScreen.SetActive(true);
+            SceneManager.LoadScene("Dead End");
         }
     }
 
