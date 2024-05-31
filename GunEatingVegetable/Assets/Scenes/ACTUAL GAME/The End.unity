@@ -600,7 +600,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 1baca5330a27e44429f5023091f1a4ae, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 6c4cfd60f2afe364ca614952388147db, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -84178,6 +84178,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 352834996200407296, guid: f2fe1c45f352cba4d9bb1fa1229f303e, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1837483877022488171, guid: f2fe1c45f352cba4d9bb1fa1229f303e, type: 3}
       propertyPath: m_LocalPosition.x
       value: 78.72387
@@ -86885,6 +86889,7 @@ GameObject:
   - component: {fileID: 1595366231}
   - component: {fileID: 1595366234}
   - component: {fileID: 1595366233}
+  - component: {fileID: 1595366235}
   m_Layer: 0
   m_Name: Door1
   m_TagString: Untagged
@@ -87004,6 +87009,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1595366235
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1595366230}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b06f564c8d41e934cbfd07628d6e74e3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  endScreen: {fileID: 894502066}
 --- !u!1 &1604607118
 GameObject:
   m_ObjectHideFlags: 0
@@ -87499,7 +87517,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 1baca5330a27e44429f5023091f1a4ae, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 6c4cfd60f2afe364ca614952388147db, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -89480,8 +89498,16 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 52160618854440035, guid: fbc37598d923d16478160b170938f5d9, type: 3}
       propertyPath: m_Name
-      value: NPC Template
+      value: banana
       objectReference: {fileID: 0}
+    - target: {fileID: 242613581682759541, guid: fbc37598d923d16478160b170938f5d9, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.78
+      objectReference: {fileID: 0}
+    - target: {fileID: 1243045237588499775, guid: fbc37598d923d16478160b170938f5d9, type: 3}
+      propertyPath: image
+      value: 
+      objectReference: {fileID: 21300000, guid: 6c4cfd60f2afe364ca614952388147db, type: 3}
     - target: {fileID: 1946980681241666247, guid: fbc37598d923d16478160b170938f5d9, type: 3}
       propertyPath: m_LocalPosition.x
       value: 6.813794
@@ -89523,6 +89549,14 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3584410696220331295, guid: fbc37598d923d16478160b170938f5d9, type: 3}
+      propertyPath: dialogueText
+      value: 
+      objectReference: {fileID: 2138673740}
+    - target: {fileID: 3584410696220331295, guid: fbc37598d923d16478160b170938f5d9, type: 3}
+      propertyPath: dialoguePanel
+      value: 
+      objectReference: {fileID: 2138673741}
+    - target: {fileID: 3584410696220331295, guid: fbc37598d923d16478160b170938f5d9, type: 3}
       propertyPath: dialogue.Array.size
       value: 8
       objectReference: {fileID: 0}
@@ -89557,6 +89591,22 @@ PrefabInstance:
     - target: {fileID: 3584410696220331295, guid: fbc37598d923d16478160b170938f5d9, type: 3}
       propertyPath: dialogue.Array.data[7]
       value: Anyways go ahead and mosey over on to the forest for a big suprise!!!
+      objectReference: {fileID: 0}
+    - target: {fileID: 4531255695740617010, guid: fbc37598d923d16478160b170938f5d9, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 6c4cfd60f2afe364ca614952388147db, type: 3}
+    - target: {fileID: 7459019588119457168, guid: fbc37598d923d16478160b170938f5d9, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7459019588119457168, guid: fbc37598d923d16478160b170938f5d9, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7459019588119457168, guid: fbc37598d923d16478160b170938f5d9, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -89620,7 +89670,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 1baca5330a27e44429f5023091f1a4ae, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 6c4cfd60f2afe364ca614952388147db, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -89850,6 +89900,22 @@ PrefabInstance:
 --- !u!4 &2138673739 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5324866120469313872, guid: 396cba1a65cdf1e48b68030b79d0b8de, type: 3}
+  m_PrefabInstance: {fileID: 2138673738}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2138673740 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4549392831125530848, guid: 396cba1a65cdf1e48b68030b79d0b8de, type: 3}
+  m_PrefabInstance: {fileID: 2138673738}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &2138673741 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 9186446846188613292, guid: 396cba1a65cdf1e48b68030b79d0b8de, type: 3}
   m_PrefabInstance: {fileID: 2138673738}
   m_PrefabAsset: {fileID: 0}
 --- !u!114 &2138673750 stripped
