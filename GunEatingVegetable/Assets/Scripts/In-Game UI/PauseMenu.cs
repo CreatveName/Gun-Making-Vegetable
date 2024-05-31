@@ -46,12 +46,12 @@ public class PauseMenu : MonoBehaviour
     {
         Debug.Log("Loading menu...");
         //TEMPORARY START MENU
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        SceneManager.LoadScene("Main Menu");
     }
 
     public void Restart()//TEMPORARY
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
+        SceneManager.LoadScene("Tutorial Day 1");
     }
 
     //I will add a main menu loading scene thing later
