@@ -268,8 +268,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 99, y: 1.3815}
-  m_SizeDelta: {x: 1031.6271, y: 261.2371}
+  m_AnchoredPosition: {x: 101.888, y: 0.0000019073}
+  m_SizeDelta: {x: 725.618, y: 150.69}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &6783739973415689102
 CanvasRenderer:
@@ -402,7 +402,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -519, y: -32.754}
+  m_AnchoredPosition: {x: -381, y: 0.0000076294}
   m_SizeDelta: {x: 61.8208, y: 65.5075}
   m_Pivot: {x: 0.5000003, y: 0.50000006}
 --- !u!222 &8646531098027342898
@@ -1003,6 +1003,8 @@ GameObject:
   - component: {fileID: 6970352950466854678}
   - component: {fileID: 7215528885019096660}
   - component: {fileID: 3235189768980485805}
+  - component: {fileID: 3422671304933921948}
+  - component: {fileID: 5499028009647877217}
   m_Layer: 0
   m_Name: Farmer Joe
   m_TagString: Player
@@ -1256,6 +1258,115 @@ CapsuleCollider2D:
   m_Offset: {x: 0.009799093, y: 0}
   m_Size: {x: 0.96047384, y: 1.8737702}
   m_Direction: 0
+--- !u!114 &3422671304933921948
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8708570289906572614}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0ed586dab774e0409ff5fa4635251d6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  FootStepSound: {fileID: 5499028009647877217}
+--- !u!82 &5499028009647877217
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8708570289906572614}
+  m_Enabled: 0
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: daed0385a8c742b41962ac93e8be8f8e, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &8976486447736024598
 GameObject:
   m_ObjectHideFlags: 0
@@ -1407,8 +1518,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 13.800049, y: -344.39505}
-  m_SizeDelta: {x: -530.323, y: -723.716}
+  m_AnchoredPosition: {x: 15.31604, y: -291.00006}
+  m_SizeDelta: {x: -809.247, y: -649.801}
   m_Pivot: {x: 0.48107332, y: 0.5}
 --- !u!222 &42640105478947651
 CanvasRenderer:
