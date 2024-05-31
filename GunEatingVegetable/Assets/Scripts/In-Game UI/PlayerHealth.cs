@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class PlayerHealth : MonoBehaviour
 {
@@ -14,11 +15,12 @@ public class PlayerHealth : MonoBehaviour
     public Sprite fullHeart;
     public Sprite empyHeart;
 
-    private Quota quota;
+    private TimeCalendar tim;
 
     private void Start() 
     {
         playerHP = maxHP;
+        tim = GameObject.FindGameObjectWithTag("TimeCalendar").GetComponent<TimeCalendar>();
     }
     private void OnTriggerEnter2D(Collider2D other) 
     {
@@ -65,7 +67,7 @@ public class PlayerHealth : MonoBehaviour
 
     private void Dead()
     {
-        quota.totalDebt += 5; //discourages the player from dying
-        Destroy(gameObject);
+        tim.AddDay();
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
     }
 }
