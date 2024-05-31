@@ -23,7 +23,6 @@ public class Quota : MonoBehaviour
         DontDestroyOnLoad(gameObject);
     }
 
-    [SerializeField] private GameObject endScreen;
     public Money money;
     
     public int totalDebt; //Full debt the player must pay off, ONLY INCREASES
@@ -36,7 +35,6 @@ public class Quota : MonoBehaviour
     private void Start()
     {
         totalDebt = startingDebt;
-        endScreen.SetActive(false);
     }
 
     // Update is called once per frame
