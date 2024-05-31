@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 using System;
+using UnityEngine.SceneManagement;
 
 public class TimeCalendar : MonoBehaviour
 {
@@ -57,6 +58,11 @@ public class TimeCalendar : MonoBehaviour
         currentDay++;
         (Instantiate(dayMarkerPre, Spawnpoint.transform) as GameObject).transform.parent = Spawnpoint.transform;
 
+    }
+
+    private void DeadEnd()
+    {
+        SceneManager.LoadScene("Dead End");
     }
 
 }
