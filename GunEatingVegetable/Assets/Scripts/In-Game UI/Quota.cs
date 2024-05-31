@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 using System;
+using UnityEngine.SceneManagement;
 
 public class Quota : MonoBehaviour
 {
@@ -54,7 +55,7 @@ public class Quota : MonoBehaviour
 
     void EndGame()//TEMPORARY
     {
-        endScreen.SetActive(true);
+        SceneManager.LoadScene("The End");
     }
 
     public void payOff(int payment)
