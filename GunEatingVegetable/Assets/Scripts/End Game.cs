@@ -6,12 +6,18 @@ using UnityEngine.SceneManagement;
 public class EndGame : MonoBehaviour
 {
     [SerializeField] private GameObject endScreen;
+    [SerializeField] private bool isAlive = false;
 
     private void OnTriggerEnter2D(Collider2D other) 
     {
-        if(other.gameObject.tag == "Player")
+        if(other.gameObject.tag == "Player" && !isAlive)
         {
             SceneManager.LoadScene("Dead End");
+        }
+
+        if(other.gameObject.tag == "Player" && isAlive)
+        {
+            endScreen.SetActive(true);
         }
     }
 
