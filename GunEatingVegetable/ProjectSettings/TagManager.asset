@@ -13,6 +13,7 @@ TagManager:
   - NPC
   - TimeCalendar
   - Dialogue
+  - Birb
   layers:
   - Default
   - TransparentFX

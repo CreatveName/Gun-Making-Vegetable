@@ -11,6 +11,8 @@ public class UseVeg : MonoBehaviour
     [SerializeField]private bool isGinger;
     
     [SerializeField] private Quota quota;
+    [SerializeField] private Birb birb;
+    [SerializeField] private bool isBirb = false;
     
     private void Awake() 
     {
@@ -18,6 +20,7 @@ public class UseVeg : MonoBehaviour
         playerCollisions = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerCollisions>();
         quota = GameObject.FindGameObjectWithTag("Money").GetComponent<Quota>();
         inventory = GameObject.FindGameObjectWithTag("Player").GetComponent<Inventory>();
+        birb = GameObject.FindGameObjectWithTag("Birb").GetComponent<Birb>();
     }
     private void Update() //FIX LATER TOO TIRED
     {
@@ -37,7 +40,10 @@ public class UseVeg : MonoBehaviour
         {
             upgradeButton.SetActive(false);
         }else{
-            upgradeButton.SetActive(true);
+            if(Input.GetKeyDown(KeyCode.Q))
+            {
+                FeedVeggie();
+            }
         }
     }
     public void EatVeggie()
@@ -75,10 +81,14 @@ public class UseVeg : MonoBehaviour
                 }
             }
             quota.payOff(50); //integrate different vegetable costs in the future
+            if(isBirb)
+            {
+                quota.payOff(200);
+            }
             Destroy(gameObject);
         }
     }
-    public void UpgradeVeggie()
+    public void FeedVeggie()
     {
         if(playerCollisions.onUpgrade == true)
         {
@@ -90,7 +100,7 @@ public class UseVeg : MonoBehaviour
                     break;
                 }
             }
-            //UPGRADES!!!! IDK HOW YET/NEED TO CLASSIFY BUTTON
+            birb.birbTummy++;
             Destroy(gameObject);
         }
     }

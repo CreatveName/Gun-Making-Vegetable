@@ -17,7 +17,7 @@ public class PlayerCollisions : MonoBehaviour
         {
             onSell = true;
         }
-        if(other.gameObject.tag == "Upgrade")
+        if(other.gameObject.tag == "Birb")
         {
             onUpgrade = true;
         }
@@ -34,7 +34,7 @@ public class PlayerCollisions : MonoBehaviour
         {
             onSell = false;
         }
-        if(other.gameObject.tag == "Upgrade")
+        if(other.gameObject.tag == "Birb")
         {
             onUpgrade = false;
         }
