@@ -2308,31 +2308,31 @@ PrefabInstance:
       objectReference: {fileID: 2138673741}
     - target: {fileID: 1729033660780308683, guid: f4d17943ae3979242b3f40e4676a18d9, type: 3}
       propertyPath: dialogue.Array.size
-      value: 5
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 1729033660780308683, guid: f4d17943ae3979242b3f40e4676a18d9, type: 3}
       propertyPath: dialogue.Array.data[0]
-      value: Cow sound
+      value: Top of the morning Farmer Joe!
       objectReference: {fileID: 0}
     - target: {fileID: 1729033660780308683, guid: f4d17943ae3979242b3f40e4676a18d9, type: 3}
       propertyPath: dialogue.Array.data[1]
-      value: mo moo mo mooo
+      value: It gets a bit boring standing here on the same plot of grass.
       objectReference: {fileID: 0}
     - target: {fileID: 1729033660780308683, guid: f4d17943ae3979242b3f40e4676a18d9, type: 3}
       propertyPath: dialogue.Array.data[2]
-      value: I'm a cow moo
+      value: Day in and day out. Munching on the same fibers of grass.
       objectReference: {fileID: 0}
     - target: {fileID: 1729033660780308683, guid: f4d17943ae3979242b3f40e4676a18d9, type: 3}
       propertyPath: dialogue.Array.data[3]
-      value: regular ol' cow
+      value: I wish I could explore the world. Go to the ruins or the forest.
       objectReference: {fileID: 0}
     - target: {fileID: 1729033660780308683, guid: f4d17943ae3979242b3f40e4676a18d9, type: 3}
       propertyPath: dialogue.Array.data[4]
-      value: mm yummy grass moo
+      value: Joe I wish I could live, but I am stuck on this farm.
       objectReference: {fileID: 0}
     - target: {fileID: 1729033660780308683, guid: f4d17943ae3979242b3f40e4676a18d9, type: 3}
       propertyPath: dialogue.Array.data[5]
-      value: mo
+      value: I'm just Cowvin and this is my plot of grass..
       objectReference: {fileID: 0}
     - target: {fileID: 1729033660780308683, guid: f4d17943ae3979242b3f40e4676a18d9, type: 3}
       propertyPath: dialogue.Array.data[6]
@@ -97664,15 +97664,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3584410696220331295, guid: fbc37598d923d16478160b170938f5d9, type: 3}
       propertyPath: dialogue.Array.data[0]
-      value: Yo why are you even here right now
+      value: BRO YOU'RE A TOTAL OMEGA BETA FARMER!
       objectReference: {fileID: 0}
     - target: {fileID: 3584410696220331295, guid: fbc37598d923d16478160b170938f5d9, type: 3}
       propertyPath: dialogue.Array.data[1]
-      value: You need to get farming there aint no more free veggies over here
+      value: BE A ALPHA CHAD AND GET FARMING
       objectReference: {fileID: 0}
     - target: {fileID: 3584410696220331295, guid: fbc37598d923d16478160b170938f5d9, type: 3}
       propertyPath: dialogue.Array.data[2]
-      value: 'Day 10 is incoming '
+      value: DAY 10 IS GONNA COME AND YOU'LL BE *CENSORED*
       objectReference: {fileID: 0}
     - target: {fileID: 3584410696220331295, guid: fbc37598d923d16478160b170938f5d9, type: 3}
       propertyPath: dialogue.Array.data[3]
@@ -97785,31 +97785,31 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1729033660780308683, guid: f4d17943ae3979242b3f40e4676a18d9, type: 3}
       propertyPath: dialogue.Array.data[0]
-      value: Hey Farmer!
+      value: Hey Farmer Joe!
       objectReference: {fileID: 0}
     - target: {fileID: 1729033660780308683, guid: f4d17943ae3979242b3f40e4676a18d9, type: 3}
       propertyPath: dialogue.Array.data[1]
-      value: This here is your training area.
+      value: I hope Cowvin wasn't too much of a downer today.
       objectReference: {fileID: 0}
     - target: {fileID: 1729033660780308683, guid: f4d17943ae3979242b3f40e4676a18d9, type: 3}
       propertyPath: dialogue.Array.data[2]
-      value: Just a small intro to what's to come!
+      value: I can hear his sad Moos from here.
       objectReference: {fileID: 0}
     - target: {fileID: 1729033660780308683, guid: f4d17943ae3979242b3f40e4676a18d9, type: 3}
       propertyPath: dialogue.Array.data[3]
-      value: moo moo moo moo
+      value: Corporate tells me if you ever feel sad like Cowvin to just...
       objectReference: {fileID: 0}
     - target: {fileID: 1729033660780308683, guid: f4d17943ae3979242b3f40e4676a18d9, type: 3}
       propertyPath: dialogue.Array.data[4]
-      value: Play around with the things here and see what happen.
+      value: Farm it out.
       objectReference: {fileID: 0}
     - target: {fileID: 1729033660780308683, guid: f4d17943ae3979242b3f40e4676a18d9, type: 3}
       propertyPath: dialogue.Array.data[5]
-      value: Remember to always eat your vegetables!
+      value: Farming can be like therapy and it is calling your name!
       objectReference: {fileID: 0}
     - target: {fileID: 1729033660780308683, guid: f4d17943ae3979242b3f40e4676a18d9, type: 3}
       propertyPath: dialogue.Array.data[6]
-      value: Moo (I am a normal cow)
+      value: Goodluck out there!
       objectReference: {fileID: 0}
     - target: {fileID: 1729033660780308683, guid: f4d17943ae3979242b3f40e4676a18d9, type: 3}
       propertyPath: dialogue.Array.data[7]
@@ -98475,25 +98475,23 @@ PrefabInstance:
       objectReference: {fileID: 2138673741}
     - target: {fileID: 3584410696220331295, guid: fbc37598d923d16478160b170938f5d9, type: 3}
       propertyPath: dialogue.Array.size
-      value: 1
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 3584410696220331295, guid: fbc37598d923d16478160b170938f5d9, type: 3}
       propertyPath: dialogue.Array.data[0]
-      value: '*pea sound*'
+      value: So since we're like friends do you like music?
       objectReference: {fileID: 0}
     - target: {fileID: 3584410696220331295, guid: fbc37598d923d16478160b170938f5d9, type: 3}
       propertyPath: dialogue.Array.data[1]
-      value: Don't eat me or my bretheren
+      value: My favorite group are the Black Eye Peas.
       objectReference: {fileID: 0}
     - target: {fileID: 3584410696220331295, guid: fbc37598d923d16478160b170938f5d9, type: 3}
       propertyPath: dialogue.Array.data[2]
-      value: We do NOT give you extra health back. Eat all the root things, they
-        definetely give you health. I swear...
+      value: Too bad I could never go to their concert...
       objectReference: {fileID: 0}
     - target: {fileID: 3584410696220331295, guid: fbc37598d923d16478160b170938f5d9, type: 3}
       propertyPath: dialogue.Array.data[3]
-      value: Anyways each plant is worth different amounts(UNLESS THE DEVS HAVE NOT
-        GOTTEN TO THAT), me personally, I'm about 50 shmuckeroos
+      value: After all I'm just a pea.
       objectReference: {fileID: 0}
     - target: {fileID: 3584410696220331295, guid: fbc37598d923d16478160b170938f5d9, type: 3}
       propertyPath: dialogue.Array.data[4]
