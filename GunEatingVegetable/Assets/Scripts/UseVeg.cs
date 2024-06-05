@@ -20,7 +20,11 @@ public class UseVeg : MonoBehaviour
         playerCollisions = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerCollisions>();
         quota = GameObject.FindGameObjectWithTag("Money").GetComponent<Quota>();
         inventory = GameObject.FindGameObjectWithTag("Player").GetComponent<Inventory>();
-        birb = GameObject.FindGameObjectWithTag("Birb").GetComponent<Birb>();
+        if (isBirb)
+        {
+            birb = GameObject.FindGameObjectWithTag("Birb").GetComponent<Birb>();
+        }
+        
     }
     private void Update() //FIX LATER TOO TIRED
     {
