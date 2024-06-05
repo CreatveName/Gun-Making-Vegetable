@@ -85988,6 +85988,10 @@ PrefabInstance:
       value: Shopkeeper
       objectReference: {fileID: 0}
     - target: {fileID: 7758188578378697860, guid: f4d17943ae3979242b3f40e4676a18d9, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7758188578378697860, guid: f4d17943ae3979242b3f40e4676a18d9, type: 3}
       propertyPath: m_TagString
       value: NPC
       objectReference: {fileID: 0}
@@ -86032,7 +86036,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerNear: {fileID: 1301356896}
   alert: {fileID: 341310180}
-  image: {fileID: 21300000, guid: 7670f9e88f78ed64089bdc69f7d9bfbf, type: 3}
+  image: {fileID: 21300000, guid: f2624b93d5a2dac47ad63b40a7e703bc, type: 3}
 --- !u!1 &1039151234
 GameObject:
   m_ObjectHideFlags: 0
@@ -92564,6 +92568,22 @@ PrefabInstance:
     - target: {fileID: 3568161355525442608, guid: 34fda9815839f3f46ad67b84a9b1cad2, type: 3}
       propertyPath: m_Name
       value: Sell
+      objectReference: {fileID: 0}
+    - target: {fileID: 3577310313045883205, guid: 34fda9815839f3f46ad67b84a9b1cad2, type: 3}
+      propertyPath: m_Size.x
+      value: 5.438971
+      objectReference: {fileID: 0}
+    - target: {fileID: 3577310313045883205, guid: 34fda9815839f3f46ad67b84a9b1cad2, type: 3}
+      propertyPath: m_Size.y
+      value: 3.9467666
+      objectReference: {fileID: 0}
+    - target: {fileID: 3577310313045883205, guid: 34fda9815839f3f46ad67b84a9b1cad2, type: 3}
+      propertyPath: m_Offset.x
+      value: 0.092203856
+      objectReference: {fileID: 0}
+    - target: {fileID: 3577310313045883205, guid: 34fda9815839f3f46ad67b84a9b1cad2, type: 3}
+      propertyPath: m_Offset.y
+      value: -1.5055112
       objectReference: {fileID: 0}
     - target: {fileID: 5117306203577606056, guid: 34fda9815839f3f46ad67b84a9b1cad2, type: 3}
       propertyPath: m_LocalPosition.x
