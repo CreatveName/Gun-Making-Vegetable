@@ -285,7 +285,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: ee7f9b06fcef9f049be0aff38c89bdf2, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -891,15 +891,25 @@ PlayableDirector:
   m_DirectorUpdateMode: 1
   m_InitialTime: 0
   m_SceneBindings:
-  - key: {fileID: 251710906222818975, guid: 4985d592c1bed9d4681a9445b4899eb2, type: 2}
+  - key: {fileID: 0}
     value: {fileID: 1730241028}
-  - key: {fileID: 5501063233145115274, guid: 4985d592c1bed9d4681a9445b4899eb2, type: 2}
+  - key: {fileID: 0}
     value: {fileID: 1794572166}
-  - key: {fileID: -8495131303006277850, guid: 4985d592c1bed9d4681a9445b4899eb2, type: 2}
+  - key: {fileID: 0}
     value: {fileID: 1898823861}
-  - key: {fileID: 8565922169514712933, guid: 4985d592c1bed9d4681a9445b4899eb2, type: 2}
+  - key: {fileID: 0}
     value: {fileID: 388971888}
-  - key: {fileID: 3736122114062625706, guid: 4985d592c1bed9d4681a9445b4899eb2, type: 2}
+  - key: {fileID: 0}
+    value: {fileID: 980924199}
+  - key: {fileID: 3399601307683293062, guid: 4985d592c1bed9d4681a9445b4899eb2, type: 2}
+    value: {fileID: 1730241028}
+  - key: {fileID: 7018456695345896491, guid: 4985d592c1bed9d4681a9445b4899eb2, type: 2}
+    value: {fileID: 1794572166}
+  - key: {fileID: -4583842689405302003, guid: 4985d592c1bed9d4681a9445b4899eb2, type: 2}
+    value: {fileID: 1898823861}
+  - key: {fileID: 1021048580079674353, guid: 4985d592c1bed9d4681a9445b4899eb2, type: 2}
+    value: {fileID: 388971888}
+  - key: {fileID: -732057957919917685, guid: 4985d592c1bed9d4681a9445b4899eb2, type: 2}
     value: {fileID: 980924199}
   m_ExposedReferences:
     m_References: []
@@ -912,6 +922,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1449000256}
+  - component: {fileID: 1449000257}
   m_Layer: 0
   m_Name: TImeline
   m_TagString: Untagged
@@ -935,6 +946,33 @@ Transform:
   - {fileID: 1445753712}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!320 &1449000257
+PlayableDirector:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1449000254}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_PlayableAsset: {fileID: 11400000, guid: d30e1d1ae80995f409902133f974dd66, type: 2}
+  m_InitialState: 1
+  m_WrapMode: 2
+  m_DirectorUpdateMode: 1
+  m_InitialTime: 0
+  m_SceneBindings:
+  - key: {fileID: -1955775286572936780, guid: d30e1d1ae80995f409902133f974dd66, type: 2}
+    value: {fileID: 1730241028}
+  - key: {fileID: 5277303971498262904, guid: d30e1d1ae80995f409902133f974dd66, type: 2}
+    value: {fileID: 1794572166}
+  - key: {fileID: 3932527181139751049, guid: d30e1d1ae80995f409902133f974dd66, type: 2}
+    value: {fileID: 1898823861}
+  - key: {fileID: -2326533096847377521, guid: d30e1d1ae80995f409902133f974dd66, type: 2}
+    value: {fileID: 388971888}
+  - key: {fileID: 2432238346987537769, guid: d30e1d1ae80995f409902133f974dd66, type: 2}
+    value: {fileID: 980924199}
+  m_ExposedReferences:
+    m_References: []
 --- !u!1 &1579997139
 GameObject:
   m_ObjectHideFlags: 0
