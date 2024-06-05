@@ -18,7 +18,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &6607095501498086885
 RectTransform:
   m_ObjectHideFlags: 0
@@ -151,7 +151,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &4338687688197458589
 RectTransform:
   m_ObjectHideFlags: 0
@@ -415,7 +415,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sellButton: {fileID: 12201690539724945}
   upgradeButton: {fileID: 3739258303825370702}
+  isGinger: 0
   quota: {fileID: 0}
+  birb: {fileID: 0}
+  isBirb: 0
 --- !u!1 &6160607171094700820
 GameObject:
   m_ObjectHideFlags: 0
