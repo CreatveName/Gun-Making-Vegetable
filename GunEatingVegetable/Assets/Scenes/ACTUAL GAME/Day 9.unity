@@ -2512,7 +2512,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1729033660780308683, guid: f4d17943ae3979242b3f40e4676a18d9, type: 3}
       propertyPath: dialogue.Array.data[4]
-      value: See you tomorrow.
+      value: See you tomorrow. I switched spots today!
       objectReference: {fileID: 0}
     - target: {fileID: 1729033660780308683, guid: f4d17943ae3979242b3f40e4676a18d9, type: 3}
       propertyPath: dialogue.Array.data[5]
@@ -82103,7 +82103,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3584410696220331295, guid: fbc37598d923d16478160b170938f5d9, type: 3}
       propertyPath: dialogue.Array.data[2]
-      value: AWOOOOOO
+      value: AWOOOOOO *intensified*
       objectReference: {fileID: 0}
     - target: {fileID: 3584410696220331295, guid: fbc37598d923d16478160b170938f5d9, type: 3}
       propertyPath: dialogue.Array.data[3]

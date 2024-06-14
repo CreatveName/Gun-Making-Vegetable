@@ -86985,7 +86985,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3584410696220331295, guid: fbc37598d923d16478160b170938f5d9, type: 3}
       propertyPath: dialogue.Array.data[0]
-      value: Yo why are you even here right now
+      value: AWOOOO (why are you here at the training grounds?)
       objectReference: {fileID: 0}
     - target: {fileID: 3584410696220331295, guid: fbc37598d923d16478160b170938f5d9, type: 3}
       propertyPath: dialogue.Array.data[1]
@@ -86993,7 +86993,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3584410696220331295, guid: fbc37598d923d16478160b170938f5d9, type: 3}
       propertyPath: dialogue.Array.data[2]
-      value: 'Day 10 is incoming '
+      value: Day 10 is incoming... the contract won't pay for itself
       objectReference: {fileID: 0}
     - target: {fileID: 3584410696220331295, guid: fbc37598d923d16478160b170938f5d9, type: 3}
       propertyPath: dialogue.Array.data[3]
@@ -87729,7 +87729,7 @@ PrefabInstance:
       objectReference: {fileID: 2138673741}
     - target: {fileID: 3584410696220331295, guid: fbc37598d923d16478160b170938f5d9, type: 3}
       propertyPath: dialogue.Array.size
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 3584410696220331295, guid: fbc37598d923d16478160b170938f5d9, type: 3}
       propertyPath: dialogue.Array.data[0]
@@ -87741,12 +87741,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3584410696220331295, guid: fbc37598d923d16478160b170938f5d9, type: 3}
       propertyPath: dialogue.Array.data[2]
-      value: Maybe we can be friends afterall?
+      value: I would've stayed in my POD if I were you
       objectReference: {fileID: 0}
     - target: {fileID: 3584410696220331295, guid: fbc37598d923d16478160b170938f5d9, type: 3}
       propertyPath: dialogue.Array.data[3]
-      value: Anyways each plant is worth different amounts(UNLESS THE DEVS HAVE NOT
-        GOTTEN TO THAT), me personally, I'm about 50 shmuckeroos
+      value: Maybe we can be friends afterall?
       objectReference: {fileID: 0}
     - target: {fileID: 3584410696220331295, guid: fbc37598d923d16478160b170938f5d9, type: 3}
       propertyPath: dialogue.Array.data[4]

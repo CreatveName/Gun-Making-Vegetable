@@ -90220,7 +90220,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1729033660780308683, guid: f4d17943ae3979242b3f40e4676a18d9, type: 3}
       propertyPath: dialogue.Array.data[3]
-      value: It's okay if we aren't all I really do is tell you tutorial level stuff.
+      value: It's okay if we aren't all I really do is stay in this training ground.
       objectReference: {fileID: 0}
     - target: {fileID: 1729033660780308683, guid: f4d17943ae3979242b3f40e4676a18d9, type: 3}
       propertyPath: dialogue.Array.data[4]
@@ -90229,7 +90229,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1729033660780308683, guid: f4d17943ae3979242b3f40e4676a18d9, type: 3}
       propertyPath: dialogue.Array.data[5]
-      value: I just wish we were friends too.
+      value: I just wish there was more friends around here :(
       objectReference: {fileID: 0}
     - target: {fileID: 1729033660780308683, guid: f4d17943ae3979242b3f40e4676a18d9, type: 3}
       propertyPath: dialogue.Array.data[6]
@@ -96257,7 +96257,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3584410696220331295, guid: fbc37598d923d16478160b170938f5d9, type: 3}
       propertyPath: dialogue.Array.data[3]
-      value: You kil for a living and death doesn't even bother you?
+      value: You kill for a living and death doesn't even bother you?
       objectReference: {fileID: 0}
     - target: {fileID: 3584410696220331295, guid: fbc37598d923d16478160b170938f5d9, type: 3}
       propertyPath: dialogue.Array.data[4]

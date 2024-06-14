@@ -87041,7 +87041,7 @@ PrefabInstance:
       objectReference: {fileID: 2138673741}
     - target: {fileID: 1729033660780308683, guid: f4d17943ae3979242b3f40e4676a18d9, type: 3}
       propertyPath: dialogue.Array.size
-      value: 7
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 1729033660780308683, guid: f4d17943ae3979242b3f40e4676a18d9, type: 3}
       propertyPath: dialogue.Array.data[0]
@@ -87049,11 +87049,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1729033660780308683, guid: f4d17943ae3979242b3f40e4676a18d9, type: 3}
       propertyPath: dialogue.Array.data[1]
-      value: This here is your training area.
+      value: It's been a week since you've been here
       objectReference: {fileID: 0}
     - target: {fileID: 1729033660780308683, guid: f4d17943ae3979242b3f40e4676a18d9, type: 3}
       propertyPath: dialogue.Array.data[2]
-      value: Just a small intro to what's to come!
+      value: I hope your task is coming along well.
       objectReference: {fileID: 0}
     - target: {fileID: 1729033660780308683, guid: f4d17943ae3979242b3f40e4676a18d9, type: 3}
       propertyPath: dialogue.Array.data[3]
@@ -87061,7 +87061,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1729033660780308683, guid: f4d17943ae3979242b3f40e4676a18d9, type: 3}
       propertyPath: dialogue.Array.data[4]
-      value: Play around with the things here and see what happen.
+      value: Moo (I am a normal cow) *munches on grass*
       objectReference: {fileID: 0}
     - target: {fileID: 1729033660780308683, guid: f4d17943ae3979242b3f40e4676a18d9, type: 3}
       propertyPath: dialogue.Array.data[5]

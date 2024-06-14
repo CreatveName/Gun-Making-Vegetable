@@ -2307,7 +2307,7 @@ PrefabInstance:
       objectReference: {fileID: 2138673741}
     - target: {fileID: 1729033660780308683, guid: f4d17943ae3979242b3f40e4676a18d9, type: 3}
       propertyPath: dialogue.Array.size
-      value: 6
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 1729033660780308683, guid: f4d17943ae3979242b3f40e4676a18d9, type: 3}
       propertyPath: dialogue.Array.data[0]
@@ -2327,7 +2327,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1729033660780308683, guid: f4d17943ae3979242b3f40e4676a18d9, type: 3}
       propertyPath: dialogue.Array.data[4]
-      value: Joe I wish I could live, but I am stuck on this farm.
+      value: Joe,I wish I could live, but I am stuck on this farm.
       objectReference: {fileID: 0}
     - target: {fileID: 1729033660780308683, guid: f4d17943ae3979242b3f40e4676a18d9, type: 3}
       propertyPath: dialogue.Array.data[5]
@@ -2335,8 +2335,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1729033660780308683, guid: f4d17943ae3979242b3f40e4676a18d9, type: 3}
       propertyPath: dialogue.Array.data[6]
-      value: If you happen to lose all your health we will bring you back to your
-        house the next day
+      value: mooooo...
       objectReference: {fileID: 0}
     - target: {fileID: 1729033660780308683, guid: f4d17943ae3979242b3f40e4676a18d9, type: 3}
       propertyPath: dialogue.Array.data[7]
@@ -98661,7 +98660,7 @@ PrefabInstance:
       objectReference: {fileID: 2138673741}
     - target: {fileID: 3584410696220331295, guid: fbc37598d923d16478160b170938f5d9, type: 3}
       propertyPath: dialogue.Array.size
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 3584410696220331295, guid: fbc37598d923d16478160b170938f5d9, type: 3}
       propertyPath: dialogue.Array.data[0]
@@ -98681,7 +98680,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3584410696220331295, guid: fbc37598d923d16478160b170938f5d9, type: 3}
       propertyPath: dialogue.Array.data[4]
-      value: Press the sell button or q to quick sell when on the sell area
+      value: Maybe I could get into a fight!
       objectReference: {fileID: 0}
     - target: {fileID: 3584410696220331295, guid: fbc37598d923d16478160b170938f5d9, type: 3}
       propertyPath: dialogue.Array.data[5]
