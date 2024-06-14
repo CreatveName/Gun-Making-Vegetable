@@ -11,7 +11,7 @@ public class TimeCalendar : MonoBehaviour
 
     private int currentDay;
     private int dayOfWeek;
-    private String[] weekdayName = new string[4] { "Pleunday", "Tebogoday", "Ucheday", "Flannday" };
+    private String[] weekdayName = new string[7] { "Pleunday", "Tebogoday", "Ucheday", "Flannday", "Ethiday", "Retiday", "Excaday"};
 
     [SerializeField] private TMP_Text calendar;
     [SerializeField] private GameObject dayMarkerPre;
@@ -44,7 +44,7 @@ public class TimeCalendar : MonoBehaviour
     private void FixedUpdate()
     {
 
-        if(dayOfWeek > 3)
+        if(dayOfWeek > 6)
         {
             dayOfWeek = 0;
         }
