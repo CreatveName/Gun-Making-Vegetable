@@ -13,7 +13,7 @@ public class DoorWarp : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        offset = new Vector3(movement.returnDirection().x , movement.returnDirection().y , 0);
+        offset = new Vector3(movement.returnDirection().x, movement.returnDirection().y, 0);
 
         if(other.CompareTag("Player") && recentWarp)
         {
